@@ -16,4 +16,6 @@ export default function DrawingPanel(props) {
       <div id="pixels">{rows}</div>
     </div>
   )
+
+  // return <div id="drawingPanel">drawing panel</div>
 }
