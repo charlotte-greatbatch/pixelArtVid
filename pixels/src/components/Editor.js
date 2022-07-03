@@ -87,6 +87,7 @@ export default function Editor() {
       )}
 
       {hideOptions && (
+        //if options are showing we don't want to show the drawing panel
         <DrawingPanel
           //all done with state
           width={panelWidth}

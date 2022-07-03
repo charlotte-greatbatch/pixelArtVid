@@ -7,6 +7,9 @@ export default function DrawingPanel(props) {
 
   let rows = []
 
+  //height as been set, number of pxiels in the height thats how many rows we want set up
+  //inside each row we want the width pixels to be passed in
+  //inside the rows are the pixels and we want the selectedColor to change their background color
   for (let i = 0; i < height; i++) {
     rows.push(<Row key={i} width={width} selectedColor={selectedColor} />)
   }
